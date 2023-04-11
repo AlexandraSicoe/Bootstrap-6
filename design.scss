@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.content {
+  background-color: #bcbdbe;
+  padding: 200px 0 200px 0;
+}
+
+// @media screen and(max-width: 576px) {
+//   .title-container {
+//     font-size: 20px;
+//   }
+// }
+@include media-breakpoint-up(sm) {
+  h1 {
+    font-size: 20px;
+  }
+}
+h1 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 50px;
+}
+button {
+  cursor: pointer;
+}
+.icon-container {
+  background-color: #f8f9fa;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+i {
+  color: black;
+  font-size: 4.5rem;
+}
+img {
+  min-height: 30rem;
+  min-width: 30rem;
+}
+.testimonials-container {
+  background-color: #f8f9fa;
+}
+.testimonial-title {
+  padding-top: 100px;
+}
+.call-to-action {
+  background-color: #bcbdbe;
+  padding: 100px 0 100px 0;
+}
+a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+ul {
+  padding-top: 20px;
+}
+li {
+  list-style: none;
+}
